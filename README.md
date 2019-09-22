@@ -26,11 +26,6 @@ We recommend to follow the next step by step process in order to avoid adding th
     6. Upload your local commits to the new remote repo: `git push -u origin master`
 7. Start coding!
 
-## Other programming languages
-
-* [PHP](https://github.com/CodelyTV/php-bootstrap)
-* [Scala](https://github.com/CodelyTV/scala_bootstrap)
-
 ## About
 
 This hopefully helpful utility has been developed by [CodelyTV][link-author] and [contributors][link-contributors].
