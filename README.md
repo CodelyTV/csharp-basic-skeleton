@@ -1,4 +1,8 @@
 # C# Bootstrap (base / project skeleton)
+
+[![CodelyTV](https://img.shields.io/badge/codely-tv-green.svg?style=flat-square)](https://codely.tv)
+[![Workflow Status](https://github.com/CodelyTV/csharp-basic-skeleton/workflows/Main%20Workflow/badge.svg)](https://github.com/CodelyTV/csharp-basic-skeleton/actions)
+
 ## Introduction
 
 This is a repository intended to serve as a starting point if you want to bootstrap a project in C# and dotnet.
