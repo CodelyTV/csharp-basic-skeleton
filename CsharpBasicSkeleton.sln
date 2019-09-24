@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-basic-skeleton", "src\csharp-basic-skeleton\csharp-basic-skeleton.csproj", "{3469419E-D83D-4392-99FA-DDC80E9DFB74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpBasicSkeleton", "src\CsharpBasicSkeleton\CsharpBasicSkeleton.csproj", "{3469419E-D83D-4392-99FA-DDC80E9DFB74}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABF745D7-F9BF-4CEE-8A12-DC03FAB68C9A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{950BA3E7-4F83-4D34-B805-932683E66D11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-csharp-basic-skeleton", "test\test-csharp-basic-skeleton\test-csharp-basic-skeleton.csproj", "{179D9AA2-ED74-4A93-BE4C-186B6B4C267A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCsharpBasicSkeleton", "test\TestCsharpBasicSkeleton\TestCsharpBasicSkeleton.csproj", "{179D9AA2-ED74-4A93-BE4C-186B6B4C267A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
