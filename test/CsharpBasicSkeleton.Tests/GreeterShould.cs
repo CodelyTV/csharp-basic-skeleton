@@ -1,8 +1,7 @@
-namespace Test.CsharpBasicSkeleton
-{
-    using src.CsharpBasicSkeleton;
-    using Xunit;
+using Xunit;
 
+namespace CodelyTv.CsharpBasicSkeleton.Tests
+{
     public class GreeterShould
     {
         [Fact]

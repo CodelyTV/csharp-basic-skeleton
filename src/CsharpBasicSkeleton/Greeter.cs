@@ -1,4 +1,4 @@
-﻿namespace src.CsharpBasicSkeleton
+﻿namespace CodelyTv.CsharpBasicSkeleton
 {
     public static class  Greeter
     {
