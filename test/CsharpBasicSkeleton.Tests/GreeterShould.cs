@@ -1,13 +1,12 @@
 using Xunit;
 
-namespace CodelyTv.CsharpBasicSkeleton.Tests
+namespace CodelyTv.CsharpBasicSkeleton.Tests;
+
+public class GreeterShould
 {
-    public class GreeterShould
+    [Fact]
+    public void Greet_HelloMessage_Receives()
     {
-        [Fact]
-        public void Greet_HelloMessage_Receives()
-        {
-            Assert.Equal("Hello Jhon", Greeter.Greet("Jhon"));
-        }
+        Assert.Equal("Hello Jhon", Greeter.Greet("Jhon"));
     }
 }
