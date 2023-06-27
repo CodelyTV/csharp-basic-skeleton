@@ -13,14 +13,13 @@ repos:
         name: dotnet-format
         language: system
         stages: [pre-commit]
-        entry: format
+        entry: dotnet format
         args: ["--include"]
         types_or: ["c#"]
-    -   id: dotnet
-        name: dotnet-test
-        language: dotnet 
-        stages: [pre-push]
-        entry: test
+    -   id: test
+        name: dotnet test
+        language: system
+        entry: dotnet test .
         types_or: ["c#"]
 -   repo: https://github.com/commitizen-tools/commitizen
     rev: 3.5.2
