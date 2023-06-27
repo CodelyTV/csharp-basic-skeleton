@@ -19,7 +19,7 @@ repos:
         name: dotnet-test
         language: system 
         stages: [pre-push]
-        entry: dotnet test
+        entry: dotnet test CsharpBasicSkeleton.sln
         types_or: ["c#"]
 -   repo: https://github.com/commitizen-tools/commitizen
     rev: 3.5.2
