@@ -23,9 +23,11 @@ This template will create:
 - A `*/Domain` project to write your "productive" code.
 - A working test using a reference to `*/Domain` project.
 - A `.gitignore` file to just include relevant files in your repository.
+- A `pre-commit` configuration in order to follow conventional-commits and formatting c# files.
 
 ## Prerequisite
-- [.NET7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0).
+- [.NET7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- [pre-commit](https://pre-commit.com/index.html#install)
 
 ## How To Start
 
@@ -39,10 +41,11 @@ You have two main ways of starting a project from this template:
 > While first is easier from GitHub interface, second one allow you to have a local way of creating as many projects you want with this structure just by installing the template the first time.
 
 ### Working with the workspace 
- 
-1. Build the project: `dotnet build`
-2. Run tests: `dotnet test`. 
-3. Start coding!
+
+1. Install pre-commit hooks with: `pre-commit install --install-hooks -t pre-commit -t commit-msg`
+2. Build the project: `dotnet build`
+3. Run tests: `dotnet test`. 
+4. Start coding!
 
 ## About
 
@@ -65,4 +68,3 @@ The MIT License (MIT). Please see [License File][link-license] for more informat
 [link-readme]: README.md
 [link-author]: https://github.com/CodelyTV
 [link-contributors]: ../../contributors
-
