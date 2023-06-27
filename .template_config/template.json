@@ -14,13 +14,14 @@
 	"identity": "Codely.BasicSkeleton.Template",
 	"name": "Codely Basic Skeleton Template",
 	"shortName": "codely-basic",
-	"sourceName": "CSharpBasicSkeleton",
+	"sourceName": "CsharpBasicSkeleton",
 	"sources": [
 		{
 			"modifiers": [
 				{
 					"exclude": [
-						".template_config/**"
+						".template_config/**",
+						".git"
 					]
 				}
 			]

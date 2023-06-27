@@ -1,9 +1,9 @@
-﻿namespace CodelyTv.CsharpBasicSkeleton;
+﻿namespace CsharpBasicSkeleton;
 
 public static class Greeter
 {
-    public static string Greet(string name)
-    {
-        return $"Hello {name}";
-    }
+	public static string Greet(string name)
+	{
+		return $"Hello {name}";
+	}
 }
