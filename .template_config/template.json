@@ -1,0 +1,29 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Codely",
+	"classifications": [
+		"Common",
+		"Library",
+		"Test",
+		"NUnit"
+	],
+	"tags": {
+		"language": "C#",
+		"type": "solution"
+	},
+	"identity": "Codely.BasicSkeleton.Template",
+	"name": "Codely Basic Skeleton Template",
+	"shortName": "codely-basic",
+	"sourceName": "CSharpBasicSkeleton",
+	"sources": [
+		{
+			"modifiers": [
+				{
+					"exclude": [
+						".template_config/**"
+					]
+				}
+			]
+		}
+	]
+}
