@@ -38,6 +38,7 @@ We'll try to maintain this project as simple as possible, but Pull Requests are 
 
 ## 💡 Related repositories
 
+* [TypeScript Basic Skeleton](https://github.com/CodelyTV/typescript-basic-skeleton)
 * [Java Basic Skeleton](https://github.com/CodelyTV/java-basic-skeleton)
 * [PHP Basic Skeleton](https://github.com/CodelyTV/php-basic-skeleton)
 * [Scala Basic Skeleton](https://github.com/CodelyTV/scala-basic-skeleton)
