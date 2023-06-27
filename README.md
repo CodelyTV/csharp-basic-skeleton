@@ -3,32 +3,46 @@
 [![CodelyTV](https://img.shields.io/badge/codely-tv-green.svg?style=flat-square)](https://codely.tv)
 [![Workflow Status](https://github.com/CodelyTV/csharp-basic-skeleton/workflows/Main%20Workflow/badge.svg)](https://github.com/CodelyTV/csharp-basic-skeleton/actions)
 
+- [C# Bootstrap (base / project skeleton)](#c-bootstrap-base--project-skeleton)
+	- [Introduction](#introduction)
+	- [Prerequisite](#prerequisite)
+	- [How To Start](#how-to-start)
+		- [Use the Template](#use-the-template)
+		- [Working with the workspace](#working-with-the-workspace)
+	- [About](#about)
+	- [💡 Related repositories](#-related-repositories)
+	- [License](#license)
+
+
 ## Introduction
 
-This is a repository intended to serve as a starting point if you want to bootstrap a project in C# and dotnet.
+This is a repository intended to help you create all the boilerplate to just have a test and library projects in [C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/). It could be useful if you want to start from scratch a kata or a little exercise or project.
 
-It could be useful if you want to start from scratch a kata or a little exercise or project.
+This template will create:
+- A `*/Tests` [NUnit](https://nunit.org/) test project using [FluentAssertions](https://fluentassertions.com/), [NSubstitute](https://nsubstitute.github.io/), and [Faker.NET](https://github.com/Kuree/Faker.Net).
+- A `*/Domain` project to write your "productive" code.
+- A working test using a reference to `*/Domain` project.
+- A `.gitignore` file to just include relevant files in your repository.
 
+## Prerequisite
+- [.NET7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0).
 
 ## How To Start
 
-### Cloning the repository 
+### Use the Template
+You have two main ways of starting a project from this template:
+- `Use this template` button from Github interface.
+- Using [dotnet tamplate](https://learn.microsoft.com/en-us/dotnet/core/tools/custom-templates): `dotnet new codely-basic --name <YourProjectName>`. First, you need to install the template by:
+	1. Clone the repository
+	2. Run: `dotnet new install ./`
 
-We recommend to follow the next step by step process in order to avoid adding the bootstrap project commits to your project Git history
+> While first is easier from GitHub interface, second one allow you to have a local way of creating as many projects you want with this structure just by installing the template the first time.
+
+### Working with the workspace 
  
-1. Clone this repository: `git clone https://github.com/CodelyTV/csharp-basic-skeleton your-project-name`
-2. Move to the project directory: `cd your-project-name`
-3. If you don't have it already, [install dotnet](https://dotnet.microsoft.com/download).
-4. Build the project: `dotnet build`
-5. Run tests: `dotnet test`. 
-6. Create your own repository cleaning the bootstrap project history:
-    1. Remove previous Git history in order to do not add the bootstrap repo noise in your project: `rm -rf .git`
-    2. Initialize your own Git repository: `git init`
-    3. Add the bootstrap files: `git add .`
-    4. Commit: `git commit -m "Initial commit with project boilerplate based on https://github.com/CodelyTV/csharp-basic-skeleton"`
-    5. Add your remote repository: `git remote add origin git@github.com:your-username/your-project-name`
-    6. Upload your local commits to the new remote repo: `git push -u origin master`
-7. Start coding!
+1. Build the project: `dotnet build`
+2. Run tests: `dotnet test`. 
+3. Start coding!
 
 ## About
 
