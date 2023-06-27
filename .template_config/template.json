@@ -11,7 +11,7 @@
 		"language": "C#",
 		"type": "solution"
 	},
-	"identity": "Codely.BasicSkeleton.Template",
+	"identity": "Codely.CsharpBasicSkeleton.Template",
 	"name": "Codely Basic Skeleton Template",
 	"shortName": "codely-basic",
 	"sourceName": "CsharpBasicSkeleton",
